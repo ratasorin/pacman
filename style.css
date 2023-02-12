@@ -1,0 +1,162 @@
+html {
+  background: rgb(39, 39, 39);
+  font-family: monospace;
+  overflow-x: hidden;
+}
+
+.landing-page {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.text-half {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: monospace;
+}
+
+p {
+  font-size: 1.25rem;
+}
+
+.emphasis {
+  display: block;
+  max-width: fit-content;
+  font-style: italic;
+  padding: 0.3rem;
+  margin: 0.2rem;
+  margin-left: 1rem;
+  border-radius: 0.2rem;
+  color: rgb(39, 39, 39);
+}
+
+.gold {
+  background: rgb(255, 207, 76);
+}
+
+.green {
+  background-color: rgb(102, 212, 102);
+}
+
+.purple {
+  background-color: rgb(219, 99, 255);
+}
+
+.blue {
+  background-color: rgb(92, 122, 255);
+  color: rgb(39, 39, 39);
+}
+
+.title {
+  font-size: 3rem;
+  padding: 1rem;
+}
+
+.image-half {
+  min-width: 45vw;
+  max-width: 45vw;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+/* CSS */
+.vote {
+  width: fit-content;
+  align-items: center;
+  appearance: none;
+  background-color: #fcfcfd;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(255, 255, 255, 0.582) 0px 20px,
+    rgba(255, 255, 255, 0.432) 0px 10px;
+  box-sizing: border-box;
+  color: #36395a;
+  cursor: pointer;
+  display: inline-flex;
+  height: 48px;
+
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow 0.15s, transform 0.15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  font-size: 18px;
+}
+
+.vote:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.vote:active {
+  box-shadow: #d6d6e7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+.vote-results-and-submissions {
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.vote-results {
+  display: flex;
+  flex-direction: column;
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+.review-card {
+  background-color: white;
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin: 0.5rem;
+  border-radius: 0.25rem;
+  color: rgb(39, 39, 39);
+}
+
+.reviewer {
+  font-weight: bold;
+}
+
+.reviewer_email {
+  font-weight: lighter;
+}
+
+.review {
+  margin: 0.5rem;
+  font-style: italic;
+}
+
+.stars {
+  margin-top: 0.5rem;
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
